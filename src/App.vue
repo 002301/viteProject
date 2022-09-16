@@ -1,8 +1,8 @@
 <template>
   <div class="app">
-      <div class="music" :class="{active:playing}" @click="onMusic">
+      <!-- <div class="music" :class="{active:playing}" @click="onMusic">
         <audio :src="bgm" loop id="bgm" ></audio>
-      </div>
+      </div> -->
     <transition-group name="fade">
       <Loading v-if="pageIndex === -1" :assets="loadAssets" @loaded="loadingLoaded" ></Loading>
     </transition-group>

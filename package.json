@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "image-size": "^1.0.1",
+    "swiper": "^8.4.2",
     "vue": "^3.2.25"
   },
   "devDependencies": {
