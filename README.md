@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+一个vite+vue项目的简单文档
+包括定义插件:
+- 背景图片自动添加尺寸 vite-plugin-background-add-property
+- 背景图片不全路径 vite-plugin-background-backup
+- 移动端自适应 vite-plugin-mobile-adaptation
+- rpx转换rem vite-plugin-rpx-to-rem
+- scss自动引入 vite-plugin-scss-import
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# 三个组件
+ ### Anime.vue 
+ ```
+ 1.点击添加class 动画
+ <AnimeVue checked='ani bigSmall' animeEndHide></AnimeVue>
+ 2.设置自动消失 autohide
+ <AnimeVue  autohide="1000"></AnimeVue>
+```
+ ### Bgm.vue
+ 设置背景音乐
 
-## Recommended IDE Setup
+ ### loading.vue
+ 设置loading
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+# 一个css动画文件
+animate.min.css
